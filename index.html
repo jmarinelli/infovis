@@ -1,5 +1,30 @@
 <html>
-<body>
-	<h1>Holis</h1>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="app.js" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="render()">
+	<div id="vis">
+	</div>
+	<div class="centered text-box">
+		<textarea id="text">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet dolor quis tortor molestie, vel hendrerit purus mollis. Maecenas congue, enim et aliquet lacinia, turpis massa consectetur erat, eget maximus lorem tellus quis lectus. Etiam a orci nec diam luctus congue. In vehicula justo eu aliquam aliquam. Suspendisse condimentum mattis arcu, sit amet sagittis est imperdiet eget. Ut dictum mattis imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sagittis eros massa, ac sollicitudin sem porttitor id. Aliquam hendrerit magna sed vestibulum vulputate. Morbi scelerisque sollicitudin mollis.
+
+		Etiam ornare eros vel faucibus tincidunt. Nullam pharetra, nibh sed lacinia tincidunt, orci est aliquam quam, at maximus turpis ligula a neque. Suspendisse fermentum congue sapien et venenatis. Nam rhoncus tortor at lorem cursus, et luctus risus sagittis. Vivamus eget rhoncus ex. Mauris fringilla eget velit id blandit. Nulla id malesuada metus.
+
+		Vivamus viverra auctor aliquet. Vivamus vitae felis hendrerit, interdum lectus non, posuere metus. Nulla sit amet eleifend erat, at volutpat dolor. Praesent lacinia turpis turpis, id viverra tortor eleifend faucibus. Maecenas non porttitor mi. Integer eu tortor tortor. Vivamus aliquet, nisl sit amet placerat posuere, quam ipsum semper nulla, non dapibus erat odio nec sem. Nam tellus libero, congue ut mi ut, fermentum commodo nisl. Vivamus molestie velit id nulla ultrices bibendum a eu magna. Sed porta, lectus vitae hendrerit accumsan, justo lorem iaculis odio, sed dictum enim tellus eu ex. Maecenas sed est sit amet leo consequat rutrum hendrerit vitae mi. Nunc tincidunt porttitor augue quis ornare. Fusce semper augue quis nisi semper auctor. Nullam sagittis tempor ligula, vel luctus dolor iaculis eu. Vestibulum id vulputate neque.
+
+		Curabitur efficitur metus id semper euismod. In consequat neque ac odio vehicula, eu vulputate ex tincidunt. Fusce sollicitudin risus erat, ut mollis leo hendrerit nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id erat ut ipsum ultricies porttitor. Morbi aliquam sit amet nibh eget viverra. Integer interdum dolor a nibh convallis tristique. Suspendisse dignissim nunc at mi blandit ullamcorper. Quisque rhoncus malesuada convallis. Vestibulum non purus sapien. Morbi orci velit, ultricies vitae pellentesque vitae, fermentum eget sem. Sed lacinia viverra porta. Maecenas laoreet augue a tortor imperdiet lobortis.
+
+		Phasellus efficitur leo at erat aliquam, egestas dictum nibh luctus. Morbi et vehicula nibh. Nulla at lectus in augue sollicitudin semper. Nullam vehicula ipsum et arcu condimentum egestas. Etiam mollis vitae est sit amet imperdiet. Phasellus id porttitor quam, quis semper justo. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+
+		Pellentesque id magna erat. Curabitur ac fringilla dolor. Nam in semper purus, a mollis ante. Pellentesque euismod eros at tempor iaculis. Nunc tempor auctor tincidunt. Pellentesque diam est, iaculis eu libero et, hendrerit auctor nibh. Mauris auctor enim at nisi malesuada, non sagittis lorem porttitor. Nullam tempor elementum urna, ac efficitur arcu cursus quis. Sed lacus lorem, malesuada id pretium vestibulum, ornare vitae nulla. Nullam pharetra cursus magna eu semper. Ut eu.
+		</textarea>
+	</div>
+	<div class="centered submit-btn">
+		<input type="submit" onclick="render()" value="Refresh"/>
+	</div>
 </body>
 </html>

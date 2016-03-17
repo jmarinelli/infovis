@@ -1,0 +1,29 @@
+#vis {
+	margin-bottom: 16px;
+}
+
+.centered {
+	position: relative;
+	margin: 0px auto;
+}
+
+.text-box {
+	width: 70%; 
+	height: 200px;
+}
+
+.text-box textarea {
+	width: 100%; 
+	height: 100%;
+}
+
+.submit-btn {
+	margin-top: 8px;
+	width: 120px;
+	height: 36px;
+}
+
+.submit-btn input {
+	width: 100%; 
+	height: 100%;
+}
