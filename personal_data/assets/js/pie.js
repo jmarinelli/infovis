@@ -32,14 +32,14 @@ var pie = function() {
     // Parse the date strings into javascript dates
     raw_data.forEach(function(d) {
       if (d.creation_date.split("-")[0] == "2016") {
-        d.product_invoice_collections.forEach(function (pi) {
-          if (!aux[pi.product]) {
-            aux[pi.product] = {
-              product: pi.product,
+        d.products.forEach(function (p) {
+          if (!aux[p]) {
+            aux[p] = {
+              product: p,
               quantity: 0
             };
           }
-          aux[pi.product].quantity++;
+          aux[p].quantity++;
         });
       }
     });
