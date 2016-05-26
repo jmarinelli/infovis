@@ -1,6 +1,6 @@
 var json = $.getJSON("assets/js/data.json");
 var installments = 0, no_installments = 0;
-json.forEach(function(d) {
+json.responseJSON.forEach(function(d) {
   if (d.installments){
     installments++;
   } else {
