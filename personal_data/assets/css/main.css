@@ -3896,3 +3896,7 @@
 .arc path {
   stroke: #fff;
 }
+
+.pie-text {
+	color: white;
+}

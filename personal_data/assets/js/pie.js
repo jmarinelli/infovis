@@ -5,7 +5,7 @@ var pie = function() {
   var radius = Math.min(width, height) / 2;
 
   var color = d3.scale.ordinal()
-      .range(["#FF7900", "#002C77", "#509e3c"]);
+      .range(["#FF7900", "#509e3c", "#002C77"]);
 
   var arc = d3.svg.arc()
       .outerRadius(radius - 10)
@@ -64,6 +64,7 @@ var pie = function() {
     g.append("text")
         .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
         .attr("dy", ".35em")
+        .attr("class", "pie-text")
         .text(function(d) { return d.data.product; });
   });
 };
