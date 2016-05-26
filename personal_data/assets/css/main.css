@@ -22,7 +22,7 @@
     	fill:none;
     	stroke:#000;
   	}
-	  
+
 	#xaxis text, #yaxis text {
 		font-size: 12px;
 	}
@@ -3876,3 +3876,23 @@
 			}
 
 		}
+
+		.bar {
+		  fill: steelblue;
+		  shape-rendering: crispEdges;
+		}
+
+		.axis path, .axis line {
+		  fill: none;
+		  stroke: #000;
+		  shape-rendering: crispEdges;
+		}
+
+		.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
