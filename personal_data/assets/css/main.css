@@ -3891,12 +3891,9 @@
 		.arc text {
   font: 10px sans-serif;
   text-anchor: middle;
+	fill: white;
 }
 
 .arc path {
   stroke: #fff;
-}
-
-.pie-text {
-	color: white;
 }
