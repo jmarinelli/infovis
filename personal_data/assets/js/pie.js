@@ -25,7 +25,7 @@ var pie = function() {
     .append("g")
       .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-  d3.json("data.json", function(error, raw_data) {
+  d3.json("assets/data.json", function(error, raw_data) {
     var data = [];
     var aux = {};
 
