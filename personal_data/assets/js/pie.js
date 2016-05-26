@@ -50,8 +50,6 @@ var pie = function() {
       }
     }
 
-    debugger;
-
     var g = svgPie.selectAll(".arc")
           .data(pie(data))
         .enter().append("g")
