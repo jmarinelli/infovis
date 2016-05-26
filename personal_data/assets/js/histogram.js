@@ -25,7 +25,7 @@ var histogram = function() {
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   // Get the data
-  d3.json("assets/data.json", function(error, raw_data) {
+  d3.json("assets/js/data.json", function(error, raw_data) {
     var data = [];
 
     // Parse the date strings into javascript dates
